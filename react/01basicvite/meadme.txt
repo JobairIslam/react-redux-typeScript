@@ -1,0 +1,49 @@
+{
+  // The name of the project/package
+  "name": "01basicvite",
+  // Marks the package as private, so it can't be published to npm
+  "private": true,
+  // The version of the project
+  "version": "0.0.0",
+  // Use ECMAScript modules
+  "type": "module",
+  // Project scripts for development, building, linting, and previewing
+  "scripts": {
+    // Starts the Vite development server
+    "dev": "vite",
+    // Builds the project for production
+    "build": "vite build",
+    // Runs ESLint on the project
+    "lint": "eslint .",
+    // Previews the production build locally
+    "preview": "vite preview"
+  },
+  // Runtime dependencies required for the app to run
+  "dependencies": {
+    // React library
+    "react": "^19.0.0",
+    // React DOM bindings
+    "react-dom": "^19.0.0"
+  },
+  // Development dependencies used during development and build
+  "devDependencies": {
+    // ESLint core rules
+    "@eslint/js": "^9.22.0",
+    // TypeScript types for React
+    "@types/react": "^19.0.10",
+    // TypeScript types for React DOM
+    "@types/react-dom": "^19.0.4",
+    // Vite plugin for React
+    "@vitejs/plugin-react": "^4.3.4",
+    // ESLint core package
+    "eslint": "^9.22.0",
+    // ESLint plugin for React hooks rules
+    "eslint-plugin-react-hooks": "^5.2.0",
+    // ESLint plugin for React Fast Refresh
+    "eslint-plugin-react-refresh": "^0.4.19",
+    // List of global variables for ESLint
+    "globals": "^16.0.0",
+    // Vite build tool
+    "vite": "^6.3.1"
+  }
+}
