@@ -4,7 +4,7 @@ function App() {
     <>
       <div>
         <h1>
-          sumayta islam marzia
+          Hello Vite + React!
         </h1>
       </div>
       <Vdo/>
